@@ -118,7 +118,7 @@ jobs:
         with:
           name: Built-APKs
           path: |
-            apks/*.apk"
+            apks/*.apk
           if-no-files-found: error
 
       - name: Commit Update file
