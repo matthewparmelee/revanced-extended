@@ -1,1 +1,67 @@
-{}
+{
+    "youtube": {
+        "app_version": "19.07.40",
+        "integrations_version": "v0.148.4",
+        "patches_version": "v2.220.10",
+        "cli_version": "v4.6.0",
+        "patches_json_version": "v2.220.10",
+        "ms_epoch_since_patched": 1714803897320,
+        "date_patched": "2024-05-04 06:24:57.319584+05:30",
+        "app_dump": {
+            "app_name": "youtube",
+            "app_version": "19.07.40",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli",
+            "patches_dl": "https://github.com/YT-Advanced/ReX-patches",
+            "integrations_dl": "https://github.com/YT-Advanced/ReX-integrations",
+            "patches_json_dl": "https://github.com/YT-Advanced/ReX-patches",
+            "exclude_request": [
+                "add-splash-animation",
+                "change-player-flyout-panel-toggles",
+                "disable-landscape-mode",
+                "enable-debug-logging",
+                "hide-animated-button-background",
+                "hide-double-tap-overlay-filter",
+                "hide-double-tap-to-like-animations",
+                "hide-fullscreen-button",
+                "hide-player-button-background",
+                "hide-player-chapters",
+                "hide-voice-search-button",
+                "materialyou",
+                "shorts-outline-button",
+                "spoof-player-parameters"
+            ],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "d1dd3f8bdff4c4fbedc02f74dc4a853217af9769fcb559fe394d77806114dc55.jar",
+                    "version": "v4.6.0"
+                },
+                "integrations": {
+                    "file_name": "4302ef2b9590afd9d8871f2b4cb6478c3d67045ece150a11e57acb4188db55f7.apk",
+                    "version": "v0.148.4"
+                },
+                "patches": {
+                    "file_name": "78f1e4c6ac547b14e5867670675614d6648879fdc7d2e77bb6656caa63931cb7.jar",
+                    "version": "v2.220.10"
+                },
+                "patches_json": {
+                    "file_name": "57038f6be9796c452dc50aa2e4318c28b5dd7507e2a3032ca57dec16fd66a622.json",
+                    "version": "v2.220.10"
+                }
+            },
+            "no_of_patches": 116,
+            "keystore_name": "youtube.keystore",
+            "archs_to_build": [
+                "arm64-v8a"
+            ],
+            "options_file": "options.json",
+            "download_file_name": "youtube.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=5853851&key=003b2cb189ff4ef25c00089f8cb11659a9b33b83&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube/",
+            "package_name": "com.google.android.youtube",
+            "old_key": true,
+            "space_formatted": true
+        }
+    }
+}
